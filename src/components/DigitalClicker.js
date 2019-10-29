@@ -6,7 +6,7 @@ class DigitalClicker extends Component {
         timesClicked: 0
     }
 
-    numberIncrement = (e) => {
+    numberIncrement = () => {
         this.setState({
             timesClicked: this.state.timesClicked + 1
         })
